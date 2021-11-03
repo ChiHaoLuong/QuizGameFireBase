@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="@color/white"
+        android:text="Khi bạn trả lời đúng các câu hỏi, chức danh của bạn sẽ phụ thuộc vào bảng sau đây: "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bangdiem"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="430dp">
+
+        <TextView
+            android:id="@+id/cau5"
+            android:textColor="#000000"
+            android:text="10 xu: Tập sự Bigcoin"
+            style="@style/tv"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/cau10"
+            android:text="50 xu: Thanh niên Bigcoin"
+            style="@style/tv"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/cau15"
+            android:text="100 xu: Nông dân Bigcoin"
+            style="@style/tv"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/cau20"
+            android:text="150 xu: Lão làng Bigcoin"
+            style="@style/tv"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/cau25"
+            android:text="200 xu: Triệu phú Bigcoin"
+            style="@style/tv"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/cau30"
+            android:text="250 xu: Tỷ phú Bigcoin"
+            style="@style/tv"/>
+
+        <TextView
+            android:textColor="#000000"
+            android:text="300 xu: Ông trùm Bigcoin"
+            style="@style/tv"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnok"
+        android:background="@drawable/btndangnhap"
+        android:text="xác nhận"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

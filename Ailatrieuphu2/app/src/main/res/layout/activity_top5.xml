@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NgoaiLeBackGround.Top5Activity">
+
+    <TextView
+        android:text="Top 5 cao thủ BigCoin"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:layout_margin="40dp"
+        android:background="@color/white"
+        android:id="@+id/lvtop5"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"/>
+
+    <Button
+        android:id="@+id/btnreturn"
+        android:text="trở lại trang chủ"
+        android:layout_gravity="center"
+        android:background="@drawable/background2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

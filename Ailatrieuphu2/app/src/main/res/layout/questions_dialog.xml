@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvid_dialog"
+        android:background="@color/black"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtcauhoi_dialog"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edta_dialog"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtb_dialog"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtc_dialog"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtd_dialog"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtdapan_dialog"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/mauxanhbackground"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnsua_dialog"
+        android:text="sửa"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnquaylai_dialog"
+        android:text="QUay lại"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

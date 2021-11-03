@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.ListQuestion">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivtrolaitrangchu"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/icons8_left_96px"
+            android:layout_width="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:text="Danh sách câu hỏi"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_margin="40dp"
+        android:background="@color/white"
+        android:id="@+id/lvques"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"/>
+
+    <Button
+        android:id="@+id/btnthemcauhoi"
+        android:text="Thêm câu hỏi"
+        android:layout_gravity="center"
+        android:background="@drawable/background2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
